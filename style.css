@@ -1,0 +1,119 @@
+.heading{
+    min-height: 10vh;
+    background-color: black;
+    padding: 10px 10px;
+    
+}
+
+.main-landing{
+    
+    background-color: #ffff;
+    min-height: 85vh;
+    padding: 10px;
+    
+}
+
+.footer{
+    position: fixed;
+    top:95vh;
+    min-height: 5vh;
+    background-color: rgb(14, 30, 60);
+    text-align: center;
+    color: cornsilk;
+
+}
+
+
+.boxes{
+    
+    padding: 10px 10px;
+    height: 60vh;
+    align-items: center;
+    align-content: center;
+}
+
+.boxes-in{
+    
+    width: 100%;
+    height: 80%;
+    align-items: center;
+}
+
+.boxes-in-title{
+    height:15%;
+    width: 100%;
+    position: relative;
+    
+    background-color: rgb(233, 27, 0);
+    overflow:hidden;
+}
+
+.title{
+    float: left;
+    margin-left: 5px;
+    width: 60%;
+    font-size: 20px;
+}
+.btns{
+    float: right;
+   
+    min-width:5%;
+    margin-right: 10px;
+}
+
+
+.boxes-in-content{
+    display: flex;
+    position: relative;
+    height: 85%;
+    width: 100%;
+    background-color: lightcoral;
+    
+    text-align: justify;
+    padding-left:10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes-in-content-new{
+    margin-top:0px;overflow-x: auto;
+                            overflow-y: auto;height: 100%;
+}
+
+
+.txtarea{
+    padding: 20px 20px;
+    height: 100%;
+    position: relative;
+}
+
+.txtarea-notes{
+    overflow-x: hidden;
+    overflow-y: auto;
+    resize: none;
+    height: 40vh;
+   
+}
+
+.txtarea-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.txtarea-btns-btn{
+    margin-left: 10px;
+}
+.prevarea{
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(233, 29, 172);
+    position: relative;
+    margin-right: 10px;
+    height:100%;
+    display:inline-flex;
+    width: 99%;
+
+}
